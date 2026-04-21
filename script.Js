@@ -12,7 +12,7 @@ let header = document.getElementsByTagName('header')[0].innerHTML= `
         <li class="nav-item"><a class="nav-link" href="About.html">Om</a></li>
       </ul>
       <div class="d-flex align-items-center">
-        <a href="#booking" class="btn btn-warning text-dark">Boka bord</a>
+        <a href="Index.html#booking" class="btn btn-warning text-dark">Boka bord</a>
       </div>
     </div>
   </div>
@@ -30,9 +30,9 @@ let header = document.getElementsByTagName('header')[0].innerHTML= `
           </div>
           <div class="col-md-4 mb-3">
             <h6>Öppettider</h6>
-            <p class="mb-0">Tisdag – Torsdag: 17:00 – 23:00</p>
-            <p class="mb-0">Fredag – Lördag: 16:00 – 01:00</p>
-            <p class="mb-0">Söndag – Måndag: Stängt</p>
+            <p class="mb-0">Tisdag - Torsdag: 17:00 - 23:00</p>
+            <p class="mb-0">Fredag - Lördag: 16:00 - 01:00</p>
+            <p class="mb-0">Söndag - Måndag: Stängt</p>
           </div>
           <div class="col-md-4 mb-3">
             <h6>Följ</h6>
