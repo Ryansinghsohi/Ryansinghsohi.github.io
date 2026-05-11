@@ -19,7 +19,7 @@ let header = document.getElementsByTagName('header')[0].innerHTML= `
 </nav>`;
 
   let footer = document.getElementsByTagName('footer')[0].innerHTML = `
-    <div class="footer bg-dark text-light py-4">
+    <div class="footer bg-dark text-light py-4 border-top">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-3">

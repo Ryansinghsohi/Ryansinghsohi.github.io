@@ -36,7 +36,7 @@
             <p class="mb-0">Vi använder handplockade råvaror och serverar små konstverk på tallriken.</p>
           </div>
           <div class="col-lg-6">
-            <img src="image/Kök.jpeg" alt="Chef Tingeling i köket" class="img-fluid rounded shadow-sm" />
+            <img src="image/Kök.jpeg" alt="Chef Tingeling i köket" class="img-fluid rounded" />
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
         <div class="row g-4">
           <div class="col-md-4">
             <div class="card menu-card h-100 text-dark">
-              <img src="image/Sjögräskyssta pilgrimsmusslor.jpeg" class="card-img-top card-image-1" alt="Sjögräskyssta pilgrimsmusslor">
+              <img src="image/Sjögräskyssta pilgrimsmusslor.jpeg" class="card-img-top card-image" alt="Sjögräskyssta pilgrimsmusslor">
               <div class="card-body">
                 <h5 class="card-title">Sjögräskyssta pilgrimsmusslor <span class="badge bg-warning text-dark">245 kr</span></h5>
                 <p class="card-text small">Handplockade pilgrimsmusslor, blomkålpuré, brynt smör, pancetta, äpple, tryffelolja.</p>
@@ -61,7 +61,7 @@
 
           <div class="col-md-4">
             <div class="card menu-card h-100 text-dark">
-              <img src="image/Hummertaco Royale.jpeg" class="card-img-top card-image-2" alt="Hummertaco">
+              <img src="image/Hummertaco Royale.jpeg" class="card-img-top card-image" alt="Hummertaco">
               <div class="card-body">
                 <h5 class="card-title">Hummertaco Royale <span class="badge bg-success text-light">Vinnarrätt</span> <span class="badge bg-warning text-dark">495 kr</span></h5>
                 <p class="card-text small">Smörstekt hummer, blå majstortillas, tryffelcrunch, lime-crème fraiche, picklad rödlök, mikro-koriander.</p>
@@ -71,7 +71,7 @@
 
           <div class="col-md-4">
             <div class="card menu-card h-100 text-dark">
-              <img src="image/Guldstänkt Chokladdröm.jpeg" class="card-img-top card-image-3" alt="Chokladdröm">
+              <img src="image/Guldstänkt Chokladdröm.jpeg" class="card-img-top card-image" alt="Chokladdröm">
               <div class="card-body">
                 <h5 class="card-title">Guldstänkt Chokladdröm <span class="badge bg-warning text-dark">195 kr</span></h5>
                 <p class="card-text small">Valrhona fondant, salt karamell, ätbart guld, färska hallon, handvevad vaniljglass.</p>
@@ -93,32 +93,32 @@
             </div>
           </div>
           <div class="col-md-5 text-light">
-            <h3>Boka bord</h3>
-            <form id="bookingForm" class="booking-form bg-light p-3 rounded shadow-sm">
+            <h3 id="booking-heading">Boka bord</h3>
+            <form id="bookingForm" class="booking-form bg-light p-3 rounded shadow-sm" aria-labelledby="booking-heading">
               <div class="mb-2">
-                <label class="form-label text-dark">Namn</label>
-                <input type="text" class="form-control" id="b-name" required>
+                <label for="b-name" class="form-label text-dark">Namn</label>
+                <input type="text" class="form-control" id="b-name">
               </div>
               <div class="mb-2">
-                <label class="form-label text-dark">Telefon</label>
-                <input type="text" class="form-control" id="b-phone" required>
+                <label for="b-phone" class="form-label text-dark">Telefon</label>
+                <input type="text" class="form-control" id="b-phone">
               </div>
               <div class="mb-2">
-                <label class="form-label text-dark">E-post</label>
-                <input type="text" class="form-control" id="b-email" required>
+                <label for="b-email" class="form-label text-dark">E-post</label>
+                <input type="text" class="form-control" id="b-email">
               </div>
               <div class="row">
                 <div class="col-6 mb-2">
-                  <label class="form-label text-dark">Datum</label>
-                  <input type="date" class="form-control" id="b-date" required>
+                  <label for="b-date" class="form-label text-dark">Datum</label>
+                  <input type="date" class="form-control" id="b-date">
                 </div>
                 <div class="col-6 mb-2">
-                  <label class="form-label text-dark">Tid</label>
-                  <input type="time" class="form-control" id="b-time" required>
+                  <label for="b-time" class="form-label text-dark">Tid</label>
+                  <input type="time" class="form-control" id="b-time">
                 </div>
               </div>
               <div class="mb-3">
-                <label class="form-label text-dark">Antal personer</label>
+                <label for="b-guests" class="form-label text-dark">Antal personer</label>
                 <select class="form-select" id="b-guests">
                   <option>1</option>
                   <option>2</option>
@@ -129,7 +129,7 @@
                 </select>
               </div>
               <div class="d-grid">
-                <button class="btn btn-dark" type="submit">Skicka bokning</button>
+                <button class="btn btn-dark" type="submit" aria-label="Skicka bokning">Skicka bokning</button>
               </div>
             </form>
           </div>

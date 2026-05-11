@@ -18,13 +18,16 @@ body{
 .card{
 	border: none;
 	border-radius: 10px;
-	box-shadow: 0 6px 18px rgba(2,6,23,0.45);
 }
 
-.menu-card .card-image-1,
-.menu-card .card-image-2,
-.menu-card .card-image-3{
+.menu-card .card-image{
 	height: 240px;
+	width:100%;
+	object-fit:cover;
+}
+
+.menu-card .card-image-2{
+	height: 100px;
 	width:100%;
 	object-fit:cover;
 }
