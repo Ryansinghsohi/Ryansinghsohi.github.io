@@ -16,7 +16,9 @@ let header = document.getElementsByTagName('header')[0].innerHTML= `
       </div>
     </div>
   </div>
-</nav>`;
+</nav>
+<p>hej</p>
+`;
 
   let footer = document.getElementsByTagName('footer')[0].innerHTML = `
     <div class="footer bg-dark text-light py-4 border-top">
