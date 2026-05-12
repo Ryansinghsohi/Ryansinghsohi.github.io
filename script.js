@@ -7,7 +7,7 @@ let header = document.getElementsByTagName('header')[0].innerHTML= `
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="Index.html">Hem</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Hem</a></li>
         <li class="nav-item"><a class="nav-link" href="Menu.html">Meny</a></li>
         <li class="nav-item"><a class="nav-link" href="About.html">Om</a></li>
       </ul>
